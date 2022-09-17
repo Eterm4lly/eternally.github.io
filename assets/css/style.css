@@ -1,0 +1,82 @@
+
+/*Barra de navegacion*/
+
+/*header{
+    position: fixed;
+    width: 100%;
+    background: red;
+}*/
+
+/*Carousel*/
+.carousel-inner img{
+    width: 100%;
+    max-height: 1080px;
+}
+
+.carousel-inner {
+    height: 980px;
+}
+
+/*info*/
+
+.info{
+    background-color: black;
+}
+
+.h2{
+    text-align: center;
+    color: white;
+    background: black;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.info_bg{
+    background: black;
+    color: white;
+    padding-top: 20px;
+}
+
+.fa {
+    background-color: rgb(40, 221, 221);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 155px;
+    padding-right: 155px;
+    border-radius: 5px;
+}
+
+/*destacado*/
+
+.card-body{
+    background-color: rgb(40, 221, 221); 
+    color: white;
+}
+
+/*layout*/
+
+.form-label{
+    color: white;
+}
+
+.boton{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+/*footer*/
+
+footer{
+    background-color: rgb(40, 221, 221);
+    color: white;
+}
+
+footer h2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20%;
+}
+
+.bi{
+    color: white;
+}
