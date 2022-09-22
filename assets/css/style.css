@@ -1,12 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 /*Barra de navegacion*/
-
-/*header{
-    position: fixed;
+body{
+    height: 145vh;
     width: 100%;
-    background: red;
-}*/
+    position: relative;
+}
 
+header{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+    height: 100px;
+    z-index: 1000 !important;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;   
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.navbar-brand{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: rgb(40, 221, 221);
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
 /*Carousel*/
 .carousel-inner img{
     width: 100%;
@@ -79,4 +127,5 @@ footer h2{
 
 .bi{
     color: white;
+    text-size-adjust: 100px;
 }
