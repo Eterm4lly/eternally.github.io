@@ -1,6 +1,10 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: auto;
+}
+
+/*Smooth Scroll*/
+html{
+    scroll-behavior: smooth;
 }
 
 /*Barra de navegacion*/
@@ -21,7 +25,7 @@ header{
     align-items: center;
     padding: 0 5%;
     box-sizing: border-box;
-    height: 100px;
+    height: 80px;
     z-index: 1000 !important;
     background-color: rgba(0, 0, 0, .5);
 }
@@ -31,10 +35,11 @@ header{
     justify-content: center;
     align-items: center;
     list-style: none;
+
 }
 
+
 .nav-item{
-    margin: 0 1rem;
     font-weight: 600;
     cursor: pointer;
     transition: 0.5s;   
@@ -61,14 +66,11 @@ header{
     max-height: 1080px;
 }
 
-.carousel-inner {
-    height: 980px;
-}
-
 /*info*/
 
 .info{
     background-color: black;
+    padding-top: 3%;
 }
 
 .h2{
@@ -89,12 +91,15 @@ header{
     background-color: rgb(40, 221, 221);
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 155px;
-    padding-right: 155px;
+    padding-left: 135px;
+    padding-right: 135px;
     border-radius: 5px;
 }
 
 /*destacado*/
+.destacado{
+    padding-top: 3%;
+}
 
 .card-body{
     background-color: rgb(40, 221, 221); 
@@ -117,15 +122,22 @@ header{
 footer{
     background-color: rgb(40, 221, 221);
     color: white;
-}
-
-footer h2{
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20%;
 }
 
+footer h2{
+    display: inline-block;
+}
+
 .bi{
     color: white;
-    text-size-adjust: 100px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.bi-icons{
+    display: inline-block;
+    margin-left: 40%;
 }
